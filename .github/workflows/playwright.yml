@@ -27,7 +27,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test tests/ui.test.js
+      run: npx playwright test
 
     - name: Upload output.xlsx
       uses: actions/upload-artifact@v4

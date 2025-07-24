@@ -2,7 +2,7 @@ name: Playwright Automation Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main,branch/sunnik ]
   pull_request:
     branches: [ main ]
 

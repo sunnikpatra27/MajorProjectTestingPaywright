@@ -92,7 +92,7 @@ class CarLoanPage {
     return {
 
        // Check if the loan amount input is visible on the page
-      loanAmountVisible: await this.page.locator(this.loanAmountInput).isVisible(),
+      loanAmountVisible: await  this.page.locator(this.loanAmountInput).isVisible(),
 
       // Check if the interest rate input is visible on the page  
       interestRateVisible: await this.page.locator(this.interestRateInput).isVisible(),

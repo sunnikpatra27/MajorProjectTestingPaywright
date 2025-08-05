@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: test-results
-        path: data/output.xlsx
+        path: data/caroutput.xlsx
 
     - name: Upload Playwright HTML Report
       uses: actions/upload-artifact@v4

@@ -35,6 +35,7 @@ export default defineConfig({
     headless: true, // Run with UI
     video: 'on', //Record video for all tests || 'retain-on-failure'
     screenshot: 'on', // 'on' || 'off' also there || 'only-on-failure'
+    ignoreHTTPSErrors:true
   },
 
   /* Configure projects for major browsers */
